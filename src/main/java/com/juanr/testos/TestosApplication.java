@@ -14,7 +14,7 @@ public class TestosApplication {
 		SpringApplication.run(TestosApplication.class, args);
 	}
         
-        @RequestMapping("/hello")
+        @RequestMapping("/hello/{nombre}")
         public String hello(@RequestParam String nombre){
             return "Hello: " + nombre;
         }

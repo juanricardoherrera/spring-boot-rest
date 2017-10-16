@@ -16,6 +16,6 @@ public class TestosApplication {
         
         @RequestMapping("/hello/{nombre}")
         public String hello(@PathVariable String nombre){
-            return "Hello: " + nombre;
+            return "Hello: " + nombre + "Te saludo";
         }
 }

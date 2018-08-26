@@ -1,0 +1,2 @@
+spring
+   variable-opensfhit=${OPENSHIFT_HOST}

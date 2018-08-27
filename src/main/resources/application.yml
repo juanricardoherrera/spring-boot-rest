@@ -1,2 +1,2 @@
-spring
-   variable-opensfhit=${OPENSHIFT_HOST}
+openshift:
+   variable: ${OPENSHIFT_HOST}
